@@ -1,0 +1,525 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    backdrop-filter: blur(20px);
+    background:rgba(0,0,0,0.8);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    backdrop-filter: blur(20px);
+    background:rgba(255, 255, 255, 0.8);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+body{
+    color: white;
+    background-color: orangered;
+}
+.body{
+    color: black;
+    background-color: white;
+}
+.hone{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+@keyframes h{
+    from{
+        transform: rotate(720deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+.logo{
+    animation: h 2s 5s forwards;
+}
+.strelka{
+    width: 15px;
+    border-radius: 10px;
+}
+.ma{
+    margin-top: 450px;
+    margin-left: 300px;
+    width: 600px;
+    animation: m 2s 0.5s forwards;
+    opacity: 0;
+}
+.may{
+    margin-top: 450px;
+    margin-left: 300px;
+    width: 600px;
+    animation: m 2s 0.5s forwards;
+    opacity: 0;
+    margin-bottom: 344px;
+    color: white;
+}
+@keyframes m{
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+b{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+button{
+    border-radius: 25px;
+    border: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: all 1s;
+}
+.main{
+    width: 100%;
+    margin-top: 600px;
+}
+.name{
+    width: 100%;
+}
+.kone{
+    margin-left: 400px;
+    margin-bottom: 100px;
+    margin-top: 600px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.ktwo{
+    margin-bottom: 100px;
+    margin-left: 1200px;
+}
+.kthree{
+    margin-left: 400px;
+    width: 500px;
+    margin-bottom: 100px;
+}
+.kfour{
+    margin-left: 1200px;
+    margin-bottom: 100px;
+}
+.kfive{
+    margin-left: 400px;
+    margin-bottom: 300px;
+}
+.i{
+    width: 500px;
+    border-radius: 15px; 
+    transition: all 1s;
+
+}
+.i:hover{
+    scale: 110%;
+    transition: all 1s
+}
+h1{
+    margin-bottom: 20px;
+}
+.mainone{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    margin-top: 0px;
+}
+.mainon{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    color: white;
+}
+.h1{
+    margin-bottom: 200px;
+    margin-top: 30px;
+    font-size: 45px;
+}
+button:hover{
+    color: white;
+    background-color: blue;
+    transition: all 1s;
+}
+.f{
+    transition: all 1s;
+}
+.f:hover{
+    border-bottom: 1px solid white;
+    transition: all 1s;
+}
+.a{
+    width: 100px;
+    border-radius: 25px;
+}
+.maintwo{
+    background-color: white;
+    width: 100%;
+    padding: 100px;
+}
+.z{
+    color: black;
+    font-size: 40px;
+}
+.o{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.t{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+footer{
+    background-color: black;
+    padding: 200px 200px;
+    color: white;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.fone{
+    width: 200px;
+}
+.ftwo{
+    width: 200px;
+}.fthree{
+    width: 200px;
+}.ffour{
+    width: 200px;
+}
+.s{
+    margin-top: 200px;
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+.l{
+    font-size: 19px;
+}
+hr{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.w{
+    display: flex;
+    justify-content: space-between;
+}
+.y{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.gone{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gtwo{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gthree{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gfour{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gfive{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gsix{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gseven{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.geight{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gnine{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gten{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.geleven{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gtwelve{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gthirdteen{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gfourteen{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gfivteen{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.gsixteen{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+.hp{
+    width: 700px; 
+    line-height: 50px;
+    font-size: 30px;
+}
+@media(max-width:700px){
+    .header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .gp{
+        display: none;
+    }
+    .hp{
+        font-size: 20px;
+        line-height: 30px;
+        width: 300px;
+        margin: auto;
+    }
+    .head{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    video{
+        width: 100%;
+    }
+    .i{
+        width: 100%;
+    }
+    .ma{
+        display: none;
+    }
+    .may{
+        display: none;
+    }
+    main{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .name{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 600px;
+    }
+    .gtwo{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gone{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gthree{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gfour{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gfive{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gsix{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gseven{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .geight{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gnine{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gten{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .geleven{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gtwelve{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gthirdteen{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gfourteen{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gfivteen{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gsixteen{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .kone{
+        width: 300px;
+        margin: auto;
+        margin-top: 300px;
+    } 
+    .ktwo{
+        width: 300px;
+        margin: auto;
+    } 
+    .kthree{
+        width: 300px;
+        margin: auto;
+    } 
+    .kfour{
+        width: 300px;
+        margin: auto;
+    } 
+    .kfive{
+        width: 300px;
+        margin: auto;
+    } 
+    .i{
+        width: 300px;
+        margin-top: 20px;
+    }  
+    .mainone{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .t{
+        padding-left: 55px;
+    }
+    .mainon{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .maintwo{
+        margin: auto;
+    }
+    .h1{
+        margin-bottom: 50px;
+    }
+    button{
+        font-size: 15px;
+    }
+    .t{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        width: 100%;
+        padding: 100px 10px;
+    }
+    .w{
+        display: flex;
+        flex-direction: column;
+    }
+    .y{
+        margin-top: 0px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+}
